@@ -1,0 +1,17 @@
+{
+  "name": "nanangendriks.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run build:css && live-server public/",
+    "build:css": "postcss src/assets/css/tailwind.src.css -o public/assets/css/app.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.4"
+  }
+}
